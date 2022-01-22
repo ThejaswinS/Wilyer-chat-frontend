@@ -1,0 +1,148 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+.App {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.logIn {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logIn button{
+  width:99%;
+  height: 50px;
+  border: none;
+  background-color: #0091ff;
+  color: white;
+  font-size: 16px;
+  
+}
+
+.logIn button:hover{
+  cursor: pointer;
+  background-color: #037edc;
+}
+
+.chatContainer {
+  width: 365px;
+  height: 90vh;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.chatContainer .messages {
+  /* flex: 80%; */
+  width: 100%;
+  /* padding-left: 20px; */
+}
+
+.messageInputs {
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  width: 100%;
+  
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+.inputs>input::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1; /* Firefox */
+}
+ .messageInputs>div>textarea{
+  border: none;
+  font-size: 18px;
+  width:100%;
+  height: 30px;
+  padding:5px;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  background-color:#0091ff;
+}
+
+.messageInputs>div>button{
+  display: flex;
+  background-color: #0091ff;
+  justify-content: center;
+  cursor: pointer;
+  width:100%;
+  border: none;
+  color: white;
+  align-items: center;
+  font-size: 35px;
+  height:40px;
+  border-radius: 5px;
+}
+
+.messageContainer {
+  display: flex;
+  /* width: calc(100% - 30px); */
+}
+
+.messageContainer h1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+#first{
+  justify-content: flex-start;
+}
+
+#second{
+  justify-content: flex-end;
+}
+
+#Other .messageIndividual {
+  background-color: #5ff064;
+  color: black;
+}
+.messageIndividual {
+  /* width: 200px;
+  height: 60px; */
+  border-radius: 10px;
+  /* display: grid;
+  place-items: center; */
+  background-color: #0091ff;
+  opacity: 0.9;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:10px;
+  margin-bottom: 0;
+  padding:10px;
+  text-align: left;
+  max-width: 50%;
+  word-wrap:break-word;
+}
+
+#fi{
+  background-color: #3d00e4;
+}
+#se{
+  background-color: #008cff;
+}
+
+.area{
+  width:88%;
+}
+.btn{
+  width:10%;
+}
