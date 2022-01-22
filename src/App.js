@@ -7,7 +7,7 @@ import Accordion from "@material-ui/core/Accordion";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Typography from "@material-ui/core/Typography";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
-var socket = socketClient("http://localhost:5000");
+var socket = socketClient("https://wilyer-chat-backend.herokuapp.com");
 
 function App() {
 
